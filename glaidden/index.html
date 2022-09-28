@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caffein Line</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@400..700&family=Playfair+Display:wght@400..700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__brand">
+        <img src="img/logo.jpg" alt="logo">
+      </div>
+      <a class="navbar__toggle" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path stroke="black" stroke-width="0.8" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Menu</a>
+          <ul class="navbar__sublinks">
+            <li><a href="menu_beverages.html">Beverages</a></li>
+            <li><a href="menu_desserts.html">Desserts</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="payment.html">Payment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header bg-light">
+    <div class="container">
+      <h1 class="header__title">Caffein Line</h1>
+      <p class="header__subtitle">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div>
+          <h2 class="section__title">There’s nothing like a great cup of coffee.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit porro neque, praesentium perferendis, alias maiores reprehenderit voluptatibus voluptas minus natus ipsam, ea eaque consequatur ullam.</p>
+        </div>
+        <img src="https://via.placeholder.com/350x200?text=Picture+1">
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="section__title text-center">Announcements</h2>
+      <div class="slideshow">
+        <button class="slideshow__prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path stroke="black" stroke-width="2" fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+        </button>
+        <button class="slideshow__next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path stroke="black" stroke-width="2" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </button>
+        <div class="slideshow__image">
+          <img src="https://via.placeholder.com/800x400?text=Slideshow+1">
+          <img src="https://via.placeholder.com/800x400?text=Slideshow+2">
+          <img src="https://via.placeholder.com/800x400?text=Slideshow+3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/navbar.js"></script>
+  <script src="js/slideshow.js"></script>
+</body>
+</html>
